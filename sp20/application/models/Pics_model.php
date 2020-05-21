@@ -1,4 +1,7 @@
 <?php
+
+//application/models/Pics_model.php
+
 class Pics_model extends CI_Model {
 
         public function __construct()

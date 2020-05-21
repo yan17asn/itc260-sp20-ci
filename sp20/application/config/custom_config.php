@@ -6,8 +6,8 @@ $config['banner'] = 'Default Banner';
 $config['title'] = 'Default Title';
 $config['copyright'] = 'Default Copyright';
 $config['masthead'] = 'Default MastHead';
-$config['flickrKey'] = 'TEST';
 $config['theme'] = 'themes/bootswatch/';
+$config['flickrKey'] = 'fad3e6b320b90dce6e56a928fe863887';
 
 $config['nav1'] = array(
     'news' => 'News',
