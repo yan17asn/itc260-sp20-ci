@@ -11,8 +11,8 @@ $this->load->view($this->config->item('theme') . 'header');
 <?php  $size = 'm';
 $photo_url = '
 http://farm'. $pic->farm . '.staticflickr.com/' . $pic->server . '/' . $pic->id . '_' . $pic->secret . '_' . $size . '.jpg';?>
-<img title='<?php echo $pic->title;?>' src='<?php echo $photo_url;?>'/>
-<p><?php echo $pic->title;?></p>
+<div id="pic" style="float:left; width:30%;overflow:hidden;"><img title='<?php echo $pic->title;?>' src='<?php echo $photo_url;?>'/>
+<p><?php echo $pic->title;?></p></div>
 
 
 
