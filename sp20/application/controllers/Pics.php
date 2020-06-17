@@ -8,6 +8,7 @@ class Pics extends CI_Controller {
         {
                 parent::__construct();
                 $this->load->model('pics_model');
+                $this->config->set_item('banner', 'News Section');
                 
         }
 
